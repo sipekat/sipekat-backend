@@ -1,0 +1,35 @@
+{
+  "name": "sipekat",
+  "version": "1.0.0",
+  "description": "backend",
+  "main": "routers.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EnggarAP/Sipekat-backend.git"
+  },
+  "keywords": [
+    "rest",
+    "api",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EnggarAP/sipekat-backend/issues"
+  },
+  "homepage": "https://github.com/EnggarAP/sipekat-backend#readme",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "ip": "^2.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "md5": "^2.3.0",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.9.16"
+  }
+}
